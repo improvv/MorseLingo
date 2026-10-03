@@ -1,0 +1,24 @@
+# Python 실행 캐시와 가상환경
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# 개인 IDE·운영체제 설정
+.vscode/
+.idea/
+.DS_Store
+
+# 모델은 공식 배포처에서 별도로 다운로드
+models/*.task
+
+# 비밀 설정 및 실험 영상은 저장소에 올리지 않음
+.env
+.env.*
+!.env.example
+recordings/
+captures/
+*.mp4
+*.mov
+*.avi
